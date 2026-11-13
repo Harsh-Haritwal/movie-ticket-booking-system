@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+  version="6.0">
+  <display-name>Movie Ticket Booking System</display-name>
+
+  <!-- Servlet mappings -->
+  <servlet>
+    <servlet-name>HomeServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.HomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeServlet</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>MovieServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.MovieServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MovieServlet</servlet-name>
+    <url-pattern>/movies</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>MovieDetailServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.MovieDetailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MovieDetailServlet</servlet-name>
+    <url-pattern>/movie</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SeatServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.SeatServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SeatServlet</servlet-name>
+    <url-pattern>/seats</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>BookingServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.BookingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookingServlet</servlet-name>
+    <url-pattern>/book</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CancelServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.CancelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CancelServlet</servlet-name>
+    <url-pattern>/cancel</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AdminDashboardServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.AdminDashboardServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminDashboardServlet</servlet-name>
+    <url-pattern>/admin</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AdminMovieServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.AdminMovieServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminMovieServlet</servlet-name>
+    <url-pattern>/admin/movies</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AdminMovieDeleteServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.AdminMovieDeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminMovieDeleteServlet</servlet-name>
+    <url-pattern>/admin/movies/delete</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AdminShowServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.AdminShowServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminShowServlet</servlet-name>
+    <url-pattern>/admin/shows</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>MyBookingsServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.MyBookingsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyBookingsServlet</servlet-name>
+    <url-pattern>/my-bookings</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ProfileServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.ProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProfileServlet</servlet-name>
+    <url-pattern>/profile</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AdminStaffServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.AdminStaffServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminStaffServlet</servlet-name>
+    <url-pattern>/admin/staff</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AdminBookingsServlet</servlet-name>
+    <servlet-class>com.movieticket.servlet.AdminBookingsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminBookingsServlet</servlet-name>
+    <url-pattern>/admin/bookings</url-pattern>
+  </servlet-mapping>
+
+  <!-- Authentication filter: protects admin and user pages -->
+  <filter>
+    <filter-name>AuthFilter</filter-name>
+    <filter-class>com.movieticket.filter.AuthFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>AuthFilter</filter-name>
+    <url-pattern>/book</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>AuthFilter</filter-name>
+    <url-pattern>/cancel</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>AuthFilter</filter-name>
+    <url-pattern>/my-bookings</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>AuthFilter</filter-name>
+    <url-pattern>/profile</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>AuthFilter</filter-name>
+    <url-pattern>/admin/*</url-pattern>
+  </filter-mapping>
+
+  <welcome-file-list>
+    <welcome-file>home</welcome-file>
+  </welcome-file-list>
+</web-app>

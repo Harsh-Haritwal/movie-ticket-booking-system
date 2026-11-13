@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shows>
+  <show id="S201" movieId="M101" theatre="PVR Cinemas - City Mall" screen="Screen 1"
+    date="2027-10-24" time="11:00 AM" price="180" totalSeats="60" bookedSeats="A1,A2,B5" />
+  <show id="S202" movieId="M101" theatre="PVR Cinemas - City Mall" screen="Screen 1"
+    date="2027-10-24" time="02:30 PM" price="220" totalSeats="60" bookedSeats="" />
+  <show id="S203" movieId="M101" theatre="PVR Cinemas - City Mall" screen="Screen 2"
+    date="2027-10-24" time="06:00 PM" price="250" totalSeats="60" bookedSeats="C3,C4,C5" />
+  <show id="S204" movieId="M101" theatre="INOX - Metroplex" screen="Screen 3" date="2027-10-24"
+    time="09:15 PM" price="200" totalSeats="60" bookedSeats="" />
+  <show id="S205" movieId="M102" theatre="INOX - Metroplex" screen="Screen 1" date="2027-10-24"
+    time="12:00 PM" price="200" totalSeats="60" bookedSeats="A10" />
+  <show id="S206" movieId="M102" theatre="INOX - Metroplex" screen="Screen 2" date="2027-10-24"
+    time="03:45 PM" price="240" totalSeats="60" bookedSeats="" />
+  <show id="S207" movieId="M102" theatre="PVR Cinemas - City Mall" screen="Screen 1"
+    date="2027-10-24" time="07:00 PM" price="260" totalSeats="60" bookedSeats="B1,B2" />
+  <show id="S208" movieId="M103" theatre="Cinepolis - Downtown" screen="Screen 1" date="2027-10-24"
+    time="01:15 PM" price="220" totalSeats="60" bookedSeats="" />
+  <show id="S209" movieId="M103" theatre="Cinepolis - Downtown" screen="Screen 2" date="2027-10-24"
+    time="05:30 PM" price="260" totalSeats="60" bookedSeats="D4" />
+  <show id="S210" movieId="M104" theatre="PVR Cinemas - City Mall" screen="Screen 2"
+    date="2027-10-24" time="10:30 AM" price="160" totalSeats="60" bookedSeats="" />
+  <show id="S211" movieId="M104" theatre="INOX - Metroplex" screen="Screen 3" date="2027-10-24"
+    time="04:00 PM" price="180" totalSeats="60" bookedSeats="E1,E2" />
+  <show id="S212" movieId="M105" theatre="Cinepolis - Downtown" screen="Screen 1" date="2027-10-24"
+    time="11:45 AM" price="150" totalSeats="60" bookedSeats="" />
+  <show id="S213" movieId="M105" theatre="PVR Cinemas - City Mall" screen="Screen 1"
+    date="2027-10-24" time="08:00 PM" price="200" totalSeats="60" bookedSeats="F6" />
+  <show id="S214" movieId="M106" theatre="INOX - Metroplex" screen="Screen 2" date="2027-10-24"
+    time="02:00 PM" price="170" totalSeats="60" bookedSeats="" />
+  <show id="S215" movieId="M106" theatre="Cinepolis - Downtown" screen="Screen 3" date="2027-10-24"
+    time="06:45 PM" price="190" totalSeats="60" bookedSeats="G7,G8" />
+</shows>

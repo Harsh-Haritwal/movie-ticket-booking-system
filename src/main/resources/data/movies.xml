@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+  <movie id="M101">
+    <title>The Dark Knight</title>
+    <genre>Action / Crime / Drama</genre>
+    <language>English</language>
+    <duration>152</duration>
+    <rating>9.0</rating>
+    <poster>posters/m101.jpg</poster>
+    <description>When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.</description>
+  </movie>
+  <movie id="M102">
+    <title>Inception</title>
+    <genre>Sci-Fi / Thriller</genre>
+    <language>English</language>
+    <duration>148</duration>
+    <rating>8.8</rating>
+    <poster>posters/m102.jpg</poster>
+    <description>A skilled thief who enters the dreams of others to steal secrets is offered a chance to erase his criminal history by performing the inverse: planting an idea in a target's mind.</description>
+  </movie>
+  <movie id="M103">
+    <title>Interstellar</title>
+    <genre>Sci-Fi / Adventure / Drama</genre>
+    <language>English</language>
+    <duration>169</duration>
+    <rating>8.6</rating>
+    <poster>posters/m103.jpg</poster>
+    <description>A team of explorers travels through a wormhole in space in an attempt to ensure humanity's survival as Earth becomes uninhabitable.</description>
+  </movie>
+  <movie id="M104">
+    <title>Dangal</title>
+    <genre>Drama / Sport / Biography</genre>
+    <language>Hindi</language>
+    <duration>161</duration>
+    <rating>8.4</rating>
+    <poster>posters/m104.jpg</poster>
+    <description>A former wrestler trains his daughters to become world-class wrestlers and bring glory to the country.</description>
+  </movie>
+  <movie id="M105">
+    <title>3 Idiots</title>
+    <genre>Comedy / Drama</genre>
+    <language>Hindi</language>
+    <duration>170</duration>
+    <rating>8.4</rating>
+    <poster>posters/m105.jpg</poster>
+    <description>Two friends search for their long-lost companion and revisit their college days, recalling the memories of their friend who inspired them to think differently.</description>
+  </movie>
+  <movie id="M106">
+    <title>Spirited Away</title>
+    <genre>Animation / Fantasy / Family</genre>
+    <language>Japanese</language>
+    <duration>125</duration>
+    <rating>8.6</rating>
+    <poster>posters/m106.jpg</poster>
+    <description>A young girl wanders into a mysterious world ruled by gods and witches, where she must find the courage to save her parents.</description>
+  </movie>
+</movies>

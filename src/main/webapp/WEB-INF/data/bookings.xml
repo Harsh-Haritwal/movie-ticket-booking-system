@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bookings>
+                            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <booking id="BK6EF785FD">
+                                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <userId>admin</userId>
+                                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <username>admin</username>
+                                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <showId>SC75406</showId>
+                                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <seats>A3,A4,B3,B4</seats>
+                                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <totalAmount>1400.0</totalAmount>
+                                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <status>CANCELLED</status>
+                                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <bookingTime>2026-10-24 02:27</bookingTime>
+                                                      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </booking>
+                            
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <booking id="BK4BA74CE5">
+                                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <userId>Abc</userId>
+                                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <username>Abc</username>
+                                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <showId>SC75406</showId>
+                                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <seats>A5,A6,A7</seats>
+                                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <totalAmount>1050.0</totalAmount>
+                                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <status>CANCELLED</status>
+                                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <bookingTime>2026-10-24 02:43</bookingTime>
+                                                      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </booking>
+                          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <booking id="BK7470BB98">
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <userId>admin</userId>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <username>admin</username>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <showId>S208</showId>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <seats>C8,D8,E8</seats>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <totalAmount>660.0</totalAmount>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <status>CONFIRMED</status>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <bookingTime>2026-10-26 00:02</bookingTime>
+                                                  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </booking>
+                        
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <booking id="BK45650BF8">
+                                                
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <userId>Abc</userId>
+                                                
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <username>Abc</username>
+                                                
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <showId>S214</showId>
+                                                
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <seats>A5,B4,B5,B6,B7,C6,D7</seats>
+                                                
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <totalAmount>1190.0</totalAmount>
+                                                
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <status>CANCELLED</status>
+                                                
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <bookingTime>2026-10-26 00:03</bookingTime>
+                                              
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </booking>
+                      
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <booking id="BKB9A6E3A3">
+                                    
+    
+    
+    
+    
+    
+    
+    
+    <userId>Abc</userId>
+                                    
+    
+    
+    
+    
+    
+    
+    
+    <username>Abc</username>
+                                    
+    
+    
+    
+    
+    
+    
+    
+    <showId>S201</showId>
+                                    
+    
+    
+    
+    
+    
+    
+    
+    <seats>E4,E5</seats>
+                                    
+    
+    
+    
+    
+    
+    
+    
+    <totalAmount>360.0</totalAmount>
+                                    
+    
+    
+    
+    
+    
+    
+    
+    <status>CONFIRMED</status>
+                                    
+    
+    
+    
+    
+    
+    
+    
+    <bookingTime>2026-10-26 02:57</bookingTime>
+                                  
+  
+  
+  
+  
+  
+  
+  
+  </booking>
+                
+  
+  
+  
+  
+  
+  
+  
+  <booking id="BKD7529E20">
+                                
+    
+    
+    
+    
+    
+    
+    <userId>john_doe</userId>
+                                
+    
+    
+    
+    
+    
+    
+    <username>john_doe</username>
+                                
+    
+    
+    
+    
+    
+    
+    <showId>S202</showId>
+                                
+    
+    
+    
+    
+    
+    
+    <seats>A2</seats>
+                                
+    
+    
+    
+    
+    
+    
+    <totalAmount>220.0</totalAmount>
+                                
+    
+    
+    
+    
+    
+    
+    <status>CANCELLED</status>
+                                
+    
+    
+    
+    
+    
+    
+    <bookingTime>2026-10-26 19:28</bookingTime>
+                              
+  
+  
+  
+  
+  
+  
+  </booking>
+              
+
+
+  
+  
+  
+  
+  <booking id="BK855984A5">
+                    
+    
+    
+    
+    <userId>Abc</userId>
+                    
+    
+    
+    
+    <username>Abc</username>
+                    
+    
+    
+    
+    <showId>S214</showId>
+                    
+    
+    
+    
+    <seats>C5,E7</seats>
+                    
+    
+    
+    
+    <totalAmount>340.0</totalAmount>
+                    
+    
+    
+    
+    <status>CONFIRMED</status>
+                    
+    
+    
+    
+    <bookingTime>2026-10-26 20:26</bookingTime>
+                  
+  
+  
+  
+  </booking>
+        
+  
+  
+  
+  <booking id="BK4B3D9042">
+                
+    
+    
+    <userId>Abc</userId>
+                
+    
+    
+    <username>Abc</username>
+                
+    
+    
+    <showId>S207</showId>
+                
+    
+    
+    <seats>E5,F5</seats>
+                
+    
+    
+    <totalAmount>520.0</totalAmount>
+                
+    
+    
+    <status>CONFIRMED</status>
+                
+    
+    
+    <bookingTime>2026-10-26 21:56</bookingTime>
+              
+  
+  
+  </booking>
+      
+  
+  
+  <booking id="BK77B2D3B7">
+            
+    
+    <userId>john_doe</userId>
+            
+    
+    <username>john_doe</username>
+            
+    
+    <showId>S202</showId>
+            
+    
+    <seats>B1,C2</seats>
+            
+    
+    <totalAmount>440.0</totalAmount>
+            
+    
+    <status>CONFIRMED</status>
+            
+    
+    <bookingTime>2026-10-26 22:21</bookingTime>
+          
+  
+  </booking>
+    
+  
+  <booking id="BK8A72F6BC">
+        
+    <userId>Abc</userId>
+        
+    <username>Abc</username>
+        
+    <showId>S205</showId>
+        
+    <seats>C9,C10</seats>
+        
+    <totalAmount>400.0</totalAmount>
+        
+    <status>CONFIRMED</status>
+        
+    <bookingTime>2026-10-26 22:22</bookingTime>
+      
+  </booking>
+  
+  <booking id="BK0114FFCF">
+    <userId>Abc</userId>
+    <username>Abc</username>
+    <showId>S208</showId>
+    <seats>C9,C10,D10</seats>
+    <totalAmount>660.0</totalAmount>
+    <status>CONFIRMED</status>
+    <bookingTime>2026-10-26 22:23</bookingTime>
+  </booking>
+</bookings>
